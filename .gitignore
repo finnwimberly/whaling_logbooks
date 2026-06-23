@@ -5,15 +5,19 @@
 20250323_export  
 20250606_export
 
+._*
+
 #same with archived notebooks
 */archived/
 
 #ignore pycache files
 */__pycache__/
 *.pyc
+*.jupyter
+.jupyter*
 
 #ignore checkpoints
-*.ipynb_checkpoints
+*/.ipynb_checkpoints
 
 #and most of the csv/pkl files to prevent cluttering the repo
 */CSV_files/*
